@@ -36,10 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         vp_banner = findViewById(R.id.vp_banner);
-        ImageView imageView = findViewById(R.id.imageview);
-        Glide.with(this)
-                .load("https://www.wanandroid.com/blogimgs/90c6cc12-742e-4c9f-b318-b912f163b8d0.png")
-                .into(imageView);
+
     }
 
     private void initData() {
