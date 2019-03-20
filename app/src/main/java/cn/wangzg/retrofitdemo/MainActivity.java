@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        //111
         vp_banner = findViewById(R.id.vp_banner);
 
     }
